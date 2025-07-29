@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picture me</title>
+</head>
+<body>
+    <div>
+        <picture>
+            <source media="(max-width: 480px)" srcset="images/1.jpeg" sizes="">
+            <source media="(max-width: 768px)" srcset="images/2.jpeg" sizes="">
+            <source media="(max-width: 1500px)" srcset="images/3.jpeg" sizes="">
+            <img src="4.jpeg" width="400" height="400">
+        </picture>
+        <p>This is how I look depending on your device screen. 👆</p>
+    </div>
+<!-- Audio about you -->
+    <div>
+      <audio controls>
+      <source src="sam.m4a" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    </div>
+    
+    <div><video controls width="300">
+      <source src="1.mp4" type="video/mp4">
+      Your browser does not support the video element.
+    </video>
+    </div>
+
+    <iframe width="300" height="200" src="https://youtube.com/shorts/cxIl-NIM1kc" title="About Me Video"></iframe>
+
+    <p><a href="index.html">Back to Home</a></p>
+</body>
+</html>
